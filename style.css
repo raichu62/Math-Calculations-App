@@ -70,7 +70,7 @@ button:active {
 
 button.operator {
     background-color: var(--color-operator);
-    color: #ffffff;
+    color: var(--color-button);
 }
 
 button.operator:hover {
@@ -78,17 +78,17 @@ button.operator:hover {
 }
 
 button.clear {
-    background-color: #e2ecf7;
+    background-color: var(--color-button);
     color: var(--color-text);
 }
 
 button.clear:hover {
-    background-color: #cbd7e8;
+    background-color: var(--color-operator-hover);
 }
 
 button.equal {
     background-color: var(--color-operator);
-    color: #ffffff;
+    color: var(--color-button);
     grid-column: span 2;
 }
 
